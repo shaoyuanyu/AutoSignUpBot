@@ -44,7 +44,6 @@ def get_dpi(): # 获取屏幕实际分辨率（此方法可避免因“缩放布
 
 	return (horzes, vertres), scaling
 
-
 def screen_shotcut(dpi): # 截图
 	hdesktop = GetDesktopWindow()
 	# 获取桌面
@@ -68,7 +67,6 @@ def screen_shotcut(dpi): # 截图
 	mem_dc.DeleteDC()
 	DeleteObject(screenshot.GetHandle())
 	# 内存释放
-
 
 def math_test():
 	THRESHOLDVALUE = 0.02
